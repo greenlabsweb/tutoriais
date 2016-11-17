@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+	font-family:"Oswald";
+	margin: 0;
+}
+
+section{
+	background:#eee;
+	border:1px solid #ccc;
+	border-radius:4px;
+	display: flex;
+	padding: 20px;
+	border-bottom: 2px solid #277dab;
+	width: 80%;
+	margin: 23px auto;
+}
+
+div {
+    width: 50%;
+}
+
+strong{
+	margin-right: 6px;
+	color: #8c8c8c;
+}
+
+
+h2 {
+    text-transform: uppercase;
+    color: #fd6060;
+    margin-right: 15px;
+    margin-bottom: 18px;
+    margin-top: 5px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li{
+	list-style: none;
+	background: #e6e6e6;
+	display: inline-block;
+	border-radius: 6px;
+	padding: 14px;
+	color: #217dab;
+	margin-right: 5px;
+	border: 1px solid #d4d4d4;
+	letter-spacing: .5px;
+	font-size: 94%;
+	line-height: 35px;
+	margin-top: 12px;
+}
+
+
+input[type="text"] {
+    border-radius: 4px;
+    border: 1px solid #cecece;
+    padding: 7px;
+    font-family: "Oswald";
+    width: 100%;
+}
+
+input[type="submit"] {
+    background: #277dab;
+    border: none;
+    padding: 8px 50px;
+    border-radius: 3px;
+    color: #FFF;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #000;
+}
+
+/* ##RESPONSIVE##*/
+
+@media(max-width:467px){
+	li{
+		display:block !important;
+	}
+
+	input[type="submit"]{
+		width:100%;
+	}
+	
+	h2{
+		text-align:center;
+		border-bottom:1px solid;
+		margin-bottom:25px;
+		max-height: 43px;
+	}
+
+}
