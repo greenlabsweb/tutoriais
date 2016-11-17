@@ -61,13 +61,13 @@
 			$_SESSION["MONITORES"][$_SESSION["NEXT_ITEM"]] = new MONITOR($_NOVA_MARCA, $_NOVA_COR, $_NOVA_LARGURA, $_NOVA_ALTURA, date("d/m/y"), date('H:i:s', time()));
 			$_SESSION["NEXT_ITEM"]++;
 /**
-	SETA os atributos dos itens padrão através do médoto SET
+	SETA os atributos DOS através do médoto SET
 */			
 		}else{
-			$_SESSION["MONITORES"][$_POST["qualMonit"]]->set('_MARCA', $_NOVA_MARCA);
-			$_SESSION["MONITORES"][$_POST["qualMonit"]]->set('_COR', $_NOVA_COR);
-			$_SESSION["MONITORES"][$_POST["qualMonit"]]->set('_ALTURA_PX', $_NOVA_LARGURA);
-			$_SESSION["MONITORES"][$_POST["qualMonit"]]->set('_LARGURA_PX', $_NOVA_ALTURA);
+			$_SESSION["MONITORES"][$_POST["qualMonit"]-1]->set('_MARCA', $_NOVA_MARCA);
+			$_SESSION["MONITORES"][$_POST["qualMonit"]-1]->set('_COR', $_NOVA_COR);
+			$_SESSION["MONITORES"][$_POST["qualMonit"]-1]->set('_ALTURA_PX', $_NOVA_LARGURA);
+			$_SESSION["MONITORES"][$_POST["qualMonit"]-1]->set('_LARGURA_PX', $_NOVA_ALTURA);
 		}
 		
 		
@@ -140,7 +140,7 @@
 				<section id="mainMiddle">
 			<div style="width:100%;">
 				<h2>Alterar/Inserir:</h2>
-				<form action="?setaValor=1#mainMiddle" method="POST">
+				<form action="?setaValor=1" method="POST">
 					<ul>
 						<li>
 							<label>1</label>
