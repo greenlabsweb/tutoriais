@@ -1,0 +1,17 @@
+[17-Nov-2016 14:08:15 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected 'int' (T_STRING), expecting variable (T_VARIABLE) in /home/greenlabswebcom/public_html/new/git/classes/monitor.class.php on line 18
+[17-Nov-2016 14:09:45 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '(int)' (int) (T_INT_CAST), expecting variable (T_VARIABLE) in /home/greenlabswebcom/public_html/new/git/classes/monitor.class.php on line 18
+[17-Nov-2016 16:08:25 America/Sao_Paulo] PHP Fatal error:  PHP Startup: apc_mmap: mmap failed: in Unknown on line 0
+[17-Nov-2016 16:08:26 America/Sao_Paulo] PHP Fatal error:  PHP Startup: apc_mmap: mmap failed: in Unknown on line 0
+[17-Nov-2016 16:08:26 America/Sao_Paulo] PHP Fatal error:  PHP Startup: apc_mmap: mmap failed: in Unknown on line 0
+[17-Nov-2016 16:30:29 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 89
+[17-Nov-2016 16:30:56 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 89
+[17-Nov-2016 16:30:57 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 89
+[17-Nov-2016 16:30:59 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 89
+[17-Nov-2016 16:42:10 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 97
+[17-Nov-2016 16:44:47 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 100
+[17-Nov-2016 17:52:38 America/Sao_Paulo] PHP Warning:  Missing argument 5 for MONITOR::MONITOR(), called in /home/greenlabswebcom/public_html/new/git/index.php on line 13 and defined in /home/greenlabswebcom/public_html/new/git/classes/monitor.class.php on line 27
+[17-Nov-2016 17:52:38 America/Sao_Paulo] PHP Warning:  Missing argument 6 for MONITOR::MONITOR(), called in /home/greenlabswebcom/public_html/new/git/index.php on line 13 and defined in /home/greenlabswebcom/public_html/new/git/classes/monitor.class.php on line 27
+[17-Nov-2016 17:52:38 America/Sao_Paulo] PHP Warning:  Missing argument 5 for MONITOR::MONITOR(), called in /home/greenlabswebcom/public_html/new/git/index.php on line 14 and defined in /home/greenlabswebcom/public_html/new/git/classes/monitor.class.php on line 27
+[17-Nov-2016 17:52:38 America/Sao_Paulo] PHP Warning:  Missing argument 6 for MONITOR::MONITOR(), called in /home/greenlabswebcom/public_html/new/git/index.php on line 14 and defined in /home/greenlabswebcom/public_html/new/git/classes/monitor.class.php on line 27
+[17-Nov-2016 17:53:31 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected ';' in /home/greenlabswebcom/public_html/new/git/index.php on line 134
+[17-Nov-2016 19:51:54 America/Sao_Paulo] PHP Fatal error:  Call to a member function set() on a non-object in /home/greenlabswebcom/public_html/new/git/index.php on line 67

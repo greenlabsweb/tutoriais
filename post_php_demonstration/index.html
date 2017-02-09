@@ -1,0 +1,80 @@
+<html>
+<head>
+<title>
+Meu primeiro form
+</title>
+<link rel="stylesheet" href="css/principal.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+				jQuery('#meuForm').submit(function(){
+				
+								
+						var dados = jQuery( this ).serialize();
+						$.ajax({
+							url: 'processa.php',
+							cache: false,
+							data: dados,
+							type: "POST",
+
+							success: function(msg){
+
+										document.getElementById('status').innerHTML = msg;
+										document.getElementById('status').style.background = '#000';
+									
+
+							}
+						})
+					
+				
+				event.preventDefault();
+				
+				});
+				
+			}); 
+</script>
+</head>
+<body>
+	<section id="segura-items">
+	<h3>Meu primeiro formulário</h3>
+	<form method="POST" id="meuForm">
+	<input type="text" name="nome" placeholder="Nome completo" required/>
+	<input type="text" name="email" placeholder="E-mail" required/>
+	<select name="uf" required>
+						<option value="">Estado</option>
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito F.</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PR">Paraná</option>
+						<option value="PB">Paraíba</option>
+						<option value="PA">Pará</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SE">Sergipe</option>
+						<option value="SP">São Paulo</option>
+						<option value="TO">Tocantins</option>	
+	</select>
+	<input type="submit" value="Enviar">
+	</form>
+	</section>
+	<span id="status"></span>
+</body>
+</html>
